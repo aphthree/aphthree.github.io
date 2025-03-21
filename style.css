@@ -24,16 +24,19 @@ body {
 .block-1 {
     color: #0a100d;
     background-color: #d6d5c9;
+    min-height: 100vh;
 }
 
 .block-2 {
     color: #d6d5c9;
     background-color: #902923;
+    min-height: 100vh;
 }
 
 .block-3 {
     color: #0a100d;
     background-color: #b9baa3;
+    min-height: 100vh;
 }
 
 .block-4 {
@@ -42,6 +45,19 @@ body {
     padding: 5%;
     min-height: 100vh;
 }
+
+.block-5 {
+    color: #d6d5c9;
+    background-color: #902923;
+    min-height: 50vh;
+}
+
+.block-6 {
+    color: #0a100d;
+    background-color: #b9baa3;
+    min-height: 50vh;
+}
+
 .card {
     padding: 10%;
 }
