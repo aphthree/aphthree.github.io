@@ -5,6 +5,9 @@ body {
     margin: 0 auto;
     color: #0a100d;
 }
+#header {
+    max-height: 30vh;
+}
 
 .full-page {
     min-height: 100vh;
