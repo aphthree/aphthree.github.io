@@ -33,6 +33,12 @@ body {
     min-height: 100vh;
 }
 
+.block-2-half {
+    color: #d6d5c9;
+    background-color: #902923;
+    min-height: 50vh;
+}
+
 .block-3 {
     color: #0a100d;
     background-color: #b9baa3;
@@ -44,6 +50,12 @@ body {
     background-color: #d6d5c9;
     padding: 5%;
     min-height: 100vh;
+}
+
+.block-4-half {
+    color: #0a100d;
+    background-color: #d6d5c9;
+    min-height: 50vh;
 }
 
 .block-5 {
@@ -67,10 +79,19 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    align-content: center;
+    display: flex;
 }
 .footer {
     background-color: #d6d5c9;
 }
+
+.carousel-image {
+    max-width: 100%;
+    max-height: 50vh;
+}
+
+
 
 @media (max-width: 576px) {
     .first-order-responsive {
@@ -83,6 +104,12 @@ body {
         text-align-last: center;
         padding: 5%;
     }
+}
+
+@media (max-width: 992px) {
+    .contact-info {
+    text-align: center;
+}
 }
 
 .featurette-divider {
@@ -103,20 +130,19 @@ body {
 @media (min-width: 992px) {
     #contact-us {
         padding-right: 20%;
-       
     }
     .contact-info {
-        text-align-last: left;
         padding-top: 5%;
     }
 }
 
 @media (min-width: 768px) {
     #adult-class {
-        padding-right: 20%;
         padding-left: 20%;
     }
+    
 }
+
 
 @media (min-width: 40em) {
     /* Bump up size of carousel content */
